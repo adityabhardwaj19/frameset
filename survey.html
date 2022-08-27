@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <style>
+        h1{color: azure; background-color: darkblue;}
+    </style>
+</head>
+<body>
+   <H1>Survey Form</H1>
+   <table>
+     <form>
+         <tr>
+             <th><label>Name</label></th>
+             <td><input type="text" placeholder="Enter your name"></td>
+         </tr>
+         <tr>
+             <th><label>Qualifications</label></th>
+             <td>
+                 <input type="checkbox">X<sup>th</sup>
+                 <input type="checkbox">XII<sup>th</sup>
+                 <input type="checkbox">UG
+                 <input type="checkbox">PG
+                 <input type="checkbox">PHD
+             </td>
+         </tr>
+         <tr>
+            <th><label>E-Mail Address</label></th>
+            <td><input type="email" placeholder="Enter your email id"></td>
+         </tr>
+         <tr>
+            <th><label>Phone Number</label></th>
+            <td><input type="text" placeholder="Enter your phone number"></td>
+         </tr>
+         <tr>
+            <th><label>Gender</label></th>
+            <td>
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+            </td>
+         </tr>
+         <tr>
+            <th><label>City</label></th>
+            <td>
+                <select>
+                    <option>None</option>
+                    <option>Delhi</option>
+                    <option>Mumbai</option>
+                    <option>Bangalore</option>
+                    <option>Chennai</option>
+                    <option>Kolkata</option>
+                    <option>Hyderabad</option>
+                </select>
+            </td>
+         </tr>
+         <tr>
+            <th><label>Survey Question</label></th>
+            <td><textarea cols="30" rows="10" placeholder="Enter your Answer"></textarea></td>
+         </tr>
+         <tr>
+            <th><button type="submit">Submit</button></th>
+            <th><button type="reset">Reset</button></th>
+         </tr>
+     </form>
+   </table> 
+</body>
+</html>
